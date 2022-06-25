@@ -1,12 +1,6 @@
 import { serve } from "https://deno.land/std@0.138.0/http/server.ts"
 import { serveDir } from "https://deno.land/std@0.138.0/http/file_server.ts";
-/* 
-import { export1 } from "module-name"
-export1 → エクスポート名
-module-name → インポートするモジュール
 
-→ HTTPサーバの構築に使用されるらしい
-*/
 
 let previouword = "しりとり";
 
